@@ -1,0 +1,77 @@
+
+.card {
+    background-image: url("../images/MainBG.jpg");
+    background-size: cover;
+    width: 93vw;
+    height: 89vh;
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dcmSelectContainer{
+    width: 70vw;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.rowContainer {
+    height: 28.67vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bubble {
+    width: 20vw;
+    height: 10vh;
+    /* margin: 4vw; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    background-image: url("../images/BubbleBG.jpg");
+    background-size: cover;
+    cursor: pointer;
+
+
+}
+
+.bubble:hover .bubbleText {
+    cursor: pointer;
+    color: gray;
+    
+
+}
+
+.bubbleText {
+    font-family: Verdana, sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+}
+
+.titleText {
+    font-family: Verdana, sans-serif;
+    font-size: 8vh;
+    margin: 4vw;
+    color: white;
+    text-align: center;
+}
+
+.invisibleBubble{
+    background-image: none;
+    background: none;
+    box-shadow: none;
+    cursor: pointer;
+    width: 15vw;
+}

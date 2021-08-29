@@ -1,0 +1,38 @@
+.author {
+    background-image: url("../images/AuthorBG.jpg");
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imageContainer{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50vw;
+}   
+
+.about {
+    width: 50vw;
+    display: flex-inline;
+    
+justify-content: center;
+align-items: center;
+font-size: 24px;
+font-family: Verdana, sans-serif;
+color: white;
+text-align: center;
+}
+
+.authorImage {
+    width:300px;
+    height: 400px;
+    margin: 50px;
+}
+
+.title {
+    font-size: 48px;
+}
