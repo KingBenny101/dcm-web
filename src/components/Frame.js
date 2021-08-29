@@ -1,13 +1,12 @@
 import "../css/Frame.css";
 import Iframe from "react-iframe";
 
-const url = "./assets/CURRENT ELECTRICITY AND ELECTRIC ENERGY/CURRENT ELECTRICITY AND ELECTRIC ENERGY-CONTENT.cmap.html";
-
+const url = "https://benstindavis.github.io/dcm-assets//CURRENT%20ELECTRICITY%20AND%20ELECTRIC%20ENERGY/CURRENT%20ELECTRICITY%20AND%20ELECTRIC%20ENERGY-CONTENT.cmap.html";
 
 function Frame(){
     return(
         <div className="frame" >
-            <Iframe url = }></Iframe>
+            <Iframe url = {url}></Iframe>
         </div>
     )
 }

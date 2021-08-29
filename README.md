@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Digital Concept Map Website
+
+* Made using React.
+
+* The stuff below this comes with the Boilerplate.
+
+
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
