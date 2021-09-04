@@ -1,4 +1,6 @@
-# Digital Concept Map Website
+# [Digital Concept Map Website](https://benstindavis.github.io/dcm-web/)
+
+* Cick the title to open the website.
 
 * Made using React.
 
