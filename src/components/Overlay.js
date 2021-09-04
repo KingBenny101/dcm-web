@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../css/Overlay.css";
 
 
-function Overlay() {
+function Overlay({primary, handle}) {
 
     const [iconName, setIconName] = useState('      ');
 
@@ -15,9 +15,9 @@ function Overlay() {
         </div>
 
         <div className="modal-icon-container">
-          <img id="icon1" className="modal-icon" onMouseEnter = {() => setIconName("Lesson Plan")}  onMouseLeave = {() => setIconName('      ')}/>
+          <img id="icon1" className="modal-icon" onClick = {() => handle(primary.toString() + '0')} onMouseEnter = {() => setIconName("Lesson Plan")}  onMouseLeave = {() => setIconName('      ')}/>
 
-          <img id="icon2" className="modal-icon" onMouseEnter = {() => setIconName("Content")}  onMouseLeave = {() => setIconName('      ')}/>
+          <img id="icon2" className="modal-icon" onClick = {() => handle(primary.toString() + '1')} onMouseEnter = {() => setIconName("Content")}  onMouseLeave = {() => setIconName('      ')}/>
         </div>
         <div className="overlayFooter">
         <span id="iconName">{iconName}</span>

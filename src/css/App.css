@@ -1,14 +1,4 @@
-.base {
-  background-image: url("../images/DCM-UI-BG.jpg");
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 ::-webkit-scrollbar-track
 {
