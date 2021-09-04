@@ -17,3 +17,16 @@
     border: none;
     overflow: overlay;
 }
+
+
+#home {
+  position: absolute;
+  top: 0%;
+  left: 0.5%;
+  background-image: url('../images/home.png');
+  background-size: contain;
+  margin: 5vh;
+  width: 15vh;
+    height: 15vh;
+    border: none;
+}
