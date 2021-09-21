@@ -18,15 +18,32 @@
     overflow: overlay;
 }
 
-
-#home {
+#homeContainer {
   position: absolute;
   top: 0%;
-  left: 0.5%;
+  left: 50%;
+  transform: translate(-50%,0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#home {
+
   background-image: url('../images/home.png');
   background-size: contain;
-  margin: 5vh;
-  width: 15vh;
-    height: 15vh;
+  /* margin: 5vh; */
+  width: 5vh;
+    height: 5vh;
     border: none;
+    cursor: pointer;
+
+}
+
+#clickHome {
+  color: white;
+  font-family: Verdana, sans-serif;
+  cursor: pointer;
+
 }
