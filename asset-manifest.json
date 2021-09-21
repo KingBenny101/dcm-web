@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/dcm-web/static/css/main.3e0e5479.chunk.css",
-    "main.js": "/dcm-web/static/js/main.033107d2.chunk.js",
-    "main.js.map": "/dcm-web/static/js/main.033107d2.chunk.js.map",
+    "main.css": "/dcm-web/static/css/main.c03a3d50.chunk.css",
+    "main.js": "/dcm-web/static/js/main.9646f167.chunk.js",
+    "main.js.map": "/dcm-web/static/js/main.9646f167.chunk.js.map",
     "runtime-main.js": "/dcm-web/static/js/runtime-main.83376c0f.js",
     "runtime-main.js.map": "/dcm-web/static/js/runtime-main.83376c0f.js.map",
     "static/js/2.53ccb8e6.chunk.js": "/dcm-web/static/js/2.53ccb8e6.chunk.js",
     "static/js/2.53ccb8e6.chunk.js.map": "/dcm-web/static/js/2.53ccb8e6.chunk.js.map",
     "index.html": "/dcm-web/index.html",
-    "static/css/main.3e0e5479.chunk.css.map": "/dcm-web/static/css/main.3e0e5479.chunk.css.map",
+    "static/css/main.c03a3d50.chunk.css.map": "/dcm-web/static/css/main.c03a3d50.chunk.css.map",
     "static/js/2.53ccb8e6.chunk.js.LICENSE.txt": "/dcm-web/static/js/2.53ccb8e6.chunk.js.LICENSE.txt",
     "static/media/Author.css": "/dcm-web/static/media/AuthorBG.356fe27f.jpg",
     "static/media/Card.css": "/dcm-web/static/media/MainBG.621edd54.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.83376c0f.js",
     "static/js/2.53ccb8e6.chunk.js",
-    "static/css/main.3e0e5479.chunk.css",
-    "static/js/main.033107d2.chunk.js"
+    "static/css/main.c03a3d50.chunk.css",
+    "static/js/main.9646f167.chunk.js"
   ]
 }
